@@ -1,0 +1,15 @@
+Flask
+Flask-Admin
+Flask-BabelEx
+Flask-Caching
+Flask-SQLAlchemy
+Flask-WTF
+gevent
+gunicorn
+itsdangerous
+jedi
+Jinja2
+PyMySQL
+pyOpenSSL
+pytz
+SQLAlchemy

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <h3>{{ subject }}</h3>
+        <p>名称: {{ name }}</p>
+        <p>邮箱: {{ email }} </p>
+        {% if phone %}
+        <p>{{ phone }}</p>
+        {% endif %}
+        <p>内容: {{ message }}</p>
+{#        <p>前往<a href="https://{{ domain_name }}/admin/">Admin</a>查看</p>#}
+        <p>前往<a href="{{ admin_link }}">Admin</a>查看</p>
+</body>
+</html>
